@@ -8,7 +8,7 @@ names = []
 # Home Page - Form to Enter Name
 @app.route("/", methods=["GET"])
 def index():
-    return render_template("templates/index.html")
+    return render_template("index.html")
 
 # Submit Page - Adds Name to List
 @app.route("/submit", methods=["POST"])
